@@ -9,6 +9,58 @@
 </head>
 
 <body>
+    <div class="main-container">
+        <div class="container">
+            <div>
+                <h1>GAME</h1>
+                <div class="player">
+                    <div>
+                        <p>Player</p>
+                        <div id="scorePlayer">0</div>
+
+                    </div>
+                    <div>
+                        <p>Player</p>
+                        <div id="scoreComputer">0</div>
+
+                    </div>
+
+                </div>
+                <h2>Select one</h2>
+
+            </div>
+
+            <div class="main-game">
+
+                <div class="image">
+                    <img id="rock" src="./images/stone.png" alt="stone">
+                    <button class="btn" onclick="selectRock()">Select</button>
+                </div>
+                <div class="image">
+                    <img src="./images/paper.png" alt="paper">
+                    <button class="btn" onclick="selectPaper()">Select</button>
+                </div>
+                <div class="image">
+                    <img src="./images/scissors.png" alt="stone">
+                    <button class="btn" onclick="selectScissor()">Select</button>
+                </div>
+
+            </div>
+            <div class="reset">
+                <p id="computer-choice">Computer choice: </p>
+
+                <p id="player">Player: </p>
+                <p id="result"></p>
+
+
+
+            </div>
+            <button class="btn" onclick="reset()">Reset</button>
+
+        </div>
+    </div>
+
+
     <script src="./main.js"></script>
 </body>
 

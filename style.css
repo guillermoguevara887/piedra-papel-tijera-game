@@ -1,3 +1,67 @@
 body {
-    background-color: aqua;
+    margin: 0;
+    text-align: center;
+    color: rgb(7, 30, 34);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 600px;
+    height: 740px;
+    margin-top: 10px;
+    background-color: rgb(103, 146, 137);
+    border: solid 4px rgb(7, 30, 34);
+}
+
+.player {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.main-game {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.main-game img {
+    width: 120px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 70px;
+    height: 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    align-self: center;
+    border: solid 2px rgb(7, 30, 34);
+    background-color: rgb(103, 146, 137);
+    color: rgb(7, 30, 34);
+
+}
+
+.btn:hover {
+    opacity: 0.5;
+    transform: scale(1.2);
+
+}
+
+.reset {
+    font-size: 25px;
+    text-align: start;
+    margin-left: 20px;
 }
